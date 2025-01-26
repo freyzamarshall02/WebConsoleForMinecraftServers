@@ -5,8 +5,8 @@ password = "admin" # VERY RECOMMAND CHANGE THIS DEFAULT PASSWORD TO ANYTHING ELS
 #----------------------------
 #-----Other Setting-----
 LogOnConsole = False # Change this to decide showing all server logs on program console or not
-LoggerPath = "Logs/"
-ServerPath = "Servers/"
+LoggerPath = "logs/"
+ServerPath = "/content/drive/MyDrive/"
 BanCount = 10
 BanSeconds = 43200
 PersistBan = True
@@ -35,6 +35,6 @@ Log_wait = "Waiting for Server `{0}` to close"
 encode_nt = "big5"
 encode_unix = "utf-8"
 IPs = ["0.0.0.0", "127.0.0.1"]
-default_setup = "java -Xms1024m -Xmx1024m -XX:PermSize=128m -jar {0} nogui"
+default_setup = "java -Xms1G -Xmx1G -jar {0} nogui"
 default_jarFile = "server.jar"
 #----------------------------
