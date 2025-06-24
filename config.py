@@ -35,6 +35,6 @@ Log_wait = "Waiting for Server `{0}` to close"
 encode_nt = "big5"
 encode_unix = "utf-8"
 IPs = ["0.0.0.0", "127.0.0.1"]
-default_setup = "java -Xms1G -Xmx1G -jar {0} nogui"
+default_setup = "java -Xms6G -Xmx6G -jar {0} nogui"
 default_jarFile = "server.jar"
 #----------------------------
