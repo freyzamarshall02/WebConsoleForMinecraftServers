@@ -6,7 +6,7 @@ password = "admin" # VERY RECOMMAND CHANGE THIS DEFAULT PASSWORD TO ANYTHING ELS
 #-----Other Setting-----
 LogOnConsole = False # Change this to decide showing all server logs on program console or not
 LoggerPath = "logs/"
-ServerPath = "/workspaces/"
+ServerPath = "/workspaces/WebConsoleForMinecraftServers/volume"
 BanCount = 10
 BanSeconds = 43200
 PersistBan = True
